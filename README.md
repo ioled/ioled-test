@@ -17,7 +17,7 @@ Requisitos:
   - /auth: muestra el usuario actual. 
   - /auth/logout: para finalizar la session
 
-Aca te dejamos un ejemplo para base para poder guiarte: 
+Aca te dejamos un ejemplo como base para poder guiarte: 
 
 - https://us-central1-harambe-functions.cloudfunctions.net/auth/google : autenticación.
 - https://us-central1-harambe-functions.cloudfunctions.net/auth/ : retorna un json con el usuario actual 
