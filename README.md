@@ -10,7 +10,7 @@ Requisitos:
 - Montar el microservicio en [google cloud functions](https://cloud.google.com/functions/docs/).
 - Utilizar el entorno de desarrollo node.js 8.
 - Guardar información de sesión en la cookie. Puedes usar [cookie-session](https://github.com/expressjs/cookie-session) o cualquier otro middleware.
-- Usar alguna base de datos NoSQL para emplear persistencia para extraer los datos de sesión. Recomendamos utilizar [mlab](https://mlab.com/), [mongodb](https://www.mongodb.com/cloud) o [google cloud storage](https://cloud.google.com/storage/). Si utilizas alguno basado en mongodb, debes utilizar la biblioteca [mongoose](https://mongoosejs.com/). El desarrollo en Google cloud storage queda a tu criterio.
+- Usar alguna base de datos NoSQL para emplear persistencia para extraer los datos de sesión. Recomendamos utilizar [mlab](https://mlab.com/), [mongodb](https://www.mongodb.com/cloud) o [google cloud firebase](https://firebase.google.com/). Si utilizas alguno basado en mongodb, debes utilizar la biblioteca [mongoose](https://mongoosejs.com/). El desarrollo en Google cloud firebase queda a tu criterio.
 - Para la autenticación, es necesario utilizar el protocolo oauth2.0, idealmente con Google. Puedes usar [passport.js](http://www.passportjs.org/) u otro middleware.
 - El microservicio debe tener las siguientes rutas:
   - /auth/google: para realizar el proceso de autenticación.
