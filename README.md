@@ -1,10 +1,10 @@
 # Prueba de evaluación ioled.
 
-Si tienes ganas de emprender y crees que tienes los conocimientos básicos para ser parte de nuestro equipo, eres bienvenido a realizar esta prueba. 
+Si tienes ganas trabajar en iOLED y crees que tienes los conocimientos básicos de backend para ser parte de nuestro equipo, eres bienvenido a realizar esta prueba. 
 
 Es una prueba bastante simple, pero a la vez mezcla diversos temas sobre desarrollo web, por lo tanto no solo se enfoca en saber programar. Por el momento, no se evaluarán temas de seguridad para no aumentar la dificultad, pero si evaluaremos el funcionamineto y como lograste el resultado.
 
-La prueba consiste en realizar un microservicio capaz de autenticar usuarios y guardar información de sesió en una cookie. Como estamos enfocando el desarrollo a una arquitectura serverless en GCP, es necesario que montes este microservicio en GCP.
+La prueba consiste en realizar un microservicio capaz de autenticar usuarios y guardar información de sesión en una cookie. Como estamos enfocando el desarrollo a una arquitectura serverless en GCP, es necesario que montes este microservicio en GCP.
 
 Requisitos:
 - Montar el microservicio en [google cloud functions](https://cloud.google.com/functions/docs/).
